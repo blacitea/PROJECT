@@ -8,8 +8,13 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe(
-      'A Test Recipe',
-      'A recipe for testing the model',
+      'Banana bread',
+      'Homemade banana bread with your overripped bananas',
+      'https://images-gmi-pmc.edge-generalmills.com/122984eb-b5ee-48a9-a509-29cf9a26505b.jpg'
+    ),
+    new Recipe(
+      'Banana bread 2',
+      'Homemade banana bread with your overripped bananas',
       'https://images-gmi-pmc.edge-generalmills.com/122984eb-b5ee-48a9-a509-29cf9a26505b.jpg'
     ),
   ];
