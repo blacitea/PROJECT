@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: [],
 })
 export class HeaderComponent {
+  @Output() changeTabFire = new EventEmitter<string>()
   collapsed = true;
+
+  changeTab(tab :string) {
+    console.log("Change to ==>", tab)
+    this.changeTabFire.emit(tab)
+  }
 }

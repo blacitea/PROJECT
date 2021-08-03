@@ -13,7 +13,7 @@ export class RecipeListComponent implements OnInit {
       'https://images-gmi-pmc.edge-generalmills.com/122984eb-b5ee-48a9-a509-29cf9a26505b.jpg'
     ),
     new Recipe(
-      'Banana bread 2',
+      'Ice tea',
       'Homemade banana bread with your overripped bananas',
       'https://images-gmi-pmc.edge-generalmills.com/122984eb-b5ee-48a9-a509-29cf9a26505b.jpg'
     ),
